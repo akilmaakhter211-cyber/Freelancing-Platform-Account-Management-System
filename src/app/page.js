@@ -84,14 +84,14 @@ export default function HomePage() {
 
           <div className="flex items-center gap-3">
             <Link
-              href="/dashboard"
+              href="/login"
               className="hidden rounded-xl px-4 py-2 text-sm text-gray-300 hover:text-white sm:block"
             >
               Login
             </Link>
 
             <Link
-              href="/dashboard"
+              href="/register"
               className="rounded-xl bg-violet-600 px-5 py-3 text-sm font-semibold hover:bg-violet-700"
             >
               Get Started
